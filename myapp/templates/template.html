@@ -1,0 +1,16 @@
+
+
+<body>
+    <h1>List of Members</h1>
+    <table border="1">
+      <tr>
+        <th>First Name</th>
+      </tr>
+      {% for member in mymembers %}
+        <tr>
+          <td>{{ member }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+</body>
+
